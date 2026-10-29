@@ -1,0 +1,59 @@
+.inner {
+  max-width: 40rem;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-accent);
+}
+
+.title {
+  margin-top: 0.875rem;
+  font-size: var(--text-2xl);
+  font-weight: 600;
+}
+
+.lead {
+  margin-top: 1.25rem;
+  color: var(--color-text-muted);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.emailLabel {
+  margin-top: 2rem;
+  font-size: var(--text-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+.email {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color var(--transition);
+}
+
+.email:hover {
+  border-bottom-color: var(--color-accent);
+}
+
+.socialsWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Placeholder foto profil">
+  <!-- PLACEHOLDER: ganti file ini dengan foto asli Anda (public/foto-profil.webp) -->
+  <rect width="600" height="600" fill="#f4f4f2" />
+  <circle cx="300" cy="225" r="95" fill="#0f766e" opacity="0.8" />
+  <path d="M300 350c-110 0-190 70-190 165v85h380v-85c0-95-80-165-190-165z" fill="#0f766e" opacity="0.8" />
+</svg>

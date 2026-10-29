@@ -1,0 +1,112 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  background-color: rgba(250, 250, 248, 0.85);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+}
+
+.logo {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.logo:hover {
+  color: var(--color-accent);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.links a {
+  padding-block: 0.3rem;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition:
+    color var(--transition),
+    border-color var(--transition);
+}
+
+.links a:hover {
+  color: var(--color-text);
+}
+
+.links a.active {
+  color: var(--color-accent);
+  font-weight: 500;
+  border-bottom-color: var(--color-accent);
+}
+
+.menuButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .menuButton {
+    display: inline-flex;
+  }
+
+  .links {
+    position: fixed;
+    top: var(--nav-height);
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.25rem;
+    padding: 2rem 1.5rem;
+    background-color: var(--color-bg);
+    visibility: hidden;
+    transform: translateX(100%);
+    transition:
+      transform 250ms ease,
+      visibility 250ms ease;
+  }
+
+  .linksOpen {
+    visibility: visible;
+    transform: none;
+  }
+
+  .links a {
+    display: block;
+    padding: 0.85rem 0;
+    font-size: var(--text-lg);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .links a.active {
+    border-bottom-color: var(--color-accent);
+  }
+}
