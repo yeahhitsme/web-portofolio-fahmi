@@ -25,21 +25,6 @@ export const projects: Project[] = [
     demoUrl: 'http://web-sig-fahmi.free.nf/',
   },
   {
-    id: 'project-2',
-    title: 'Project 2',
-    description: '[Deskripsi singkat project 2 — ganti dengan penjelasan project Anda]',
-  },
-  {
-    id: 'project-3',
-    title: 'Project 3',
-    description: '[Deskripsi singkat project 3 — ganti dengan penjelasan project Anda]',
-  },
-  {
-    id: 'project-4',
-    title: 'Project 4',
-    description: '[Deskripsi singkat project 4 — ganti dengan penjelasan project Anda]',
-  },
-  {
     id: 'web-kkn',
     title: 'Web KKN - Suka Suka Danaraja',
     description: 'Website yang dibuat untuk menampilkan informasi dari kelompok KKN Desa Danaraja, sekaligus untuk mempublikasi kegiatan KKN serta informasi dari Desa Danaraja itu sendiri',
