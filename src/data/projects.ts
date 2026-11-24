@@ -17,7 +17,7 @@ export const projects: Project[] = [
     description:
       'Aplikasi web berbasis GIS untuk memetakan dan memvisualisasikan persebaran kelompok pembudidaya ikan di Kabupaten Banyumas secara interaktif, sekaligus membandingkan performa tiga pustaka pemetaan populer: Leaflet, OpenLayers, dan Mapbox GL JS.',
     image: {
-      src: '/projects/project1.webp',
+      src: '/projects/project1-fix.webp',
       alt: 'Tampilan peta interaktif Sistem Informasi Geografis Persebaran Kelompok Pembudidaya Ikan Kabupaten Banyumas',
       width: 1918,
       height: 895,
